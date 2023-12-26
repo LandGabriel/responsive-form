@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/button.css">
+    <script src="script.js"></script> 
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/form3.png" alt="template">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <div class="login-text">
+                            Já possui conta?
+                        </div>
+                        <button>Entrar</button>
+                        
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro Nome<span class="required-field">*</span></label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome<span class="required-field">*</span></label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail<span class="required-field">*</span></label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxxx-xxxx" maxlength="15" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha<span class="required-field">*</span></label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="confirmPassword">Confirme sua Senha<span class="required-field">*</span></label>
+                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="birthdate">Data de Nascimento:</label>
+<input type="text" id="birthdate" name="birthdate">
+
+                    </div>
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+                
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input id="female" type="radio" name="gender" required>
+                            <label for="female">Feminino</label>
+
+                            <div class="gender-input">
+                                <input class="man" id="male" type="radio" name="gender"required>
+                                <label for="male">  Masculino </label>
+                            </div>
+                        </div>
+                        
+                    
+                    </div>
+                </div>
+                
+                <div class="term">
+                    <input type="checkbox" id="aceitarTermos" name="aceitarTermos">
+                    <label for="aceitarTermos">Eu li e Aceito os <a href="#" target="_blank"> Termos de uso</a></label>
+                </div>
+                
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a> </button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
