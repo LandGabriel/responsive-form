@@ -1,11 +1,11 @@
 
 ![Logo do projeto](https://raw.githubusercontent.com/LandGabriel/responsive-form/main/assets/img/Form.png)
 
-# Loja de anúncio de tênis
+# Formulário de cadastro reponsivo
 :mag_right: [Veja o projeto](https://landgabriel.github.io/responsive-form/index.html)
 ## 🔥 Introdução
 
-Formulário para cadastros responsivo
+Formulário responsivo faz a capacidade de um site ou formulário se adaptar e fornecer uma experiência de usuário adequada em diferentes dispositivos e tamanhos de tela.
 
 ### 🔨 Guia de instrução
 
