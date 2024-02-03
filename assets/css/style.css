@@ -231,9 +231,7 @@ body {
         width: 90%;
         height: auto;
     }
-      .banner p {
-        display: none; /* Oculta o parágrafo dentro da div com a classe banner */
-    }
+
 }
 
 
