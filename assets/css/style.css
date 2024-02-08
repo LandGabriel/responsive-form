@@ -13,6 +13,8 @@ body {
     width: 80%;
     height: auto;
     display: flex;
+    flex-wrap: wrap; /* Adicionado */
+    justify-content: center; /* Adicionado */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
 }
 .form-image {
@@ -25,12 +27,12 @@ body {
 }
 
 .form-image img {
-    width: 100%;
+    max-width: 100%; /* Alterado */
     height: auto;
 }
 
 .form {
-    width: 68%;
+    width: 50%; /* Alterado */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,7 +42,7 @@ body {
 }
 
 .form-header {
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem; /* Diminuído */
     display: flex;
     justify-content: space-between;
    }
@@ -66,48 +68,15 @@ body {
     text-decoration: none;
     font-weight: 500;
     color: #fff;
+    font-size: 0.9rem; /* Diminuído */
 }
-@media screen and (max-width: 1330px) {
-    .form-image {
-        display: none;
-    }
-    .container {
-        width: 100%;
-    }
-    .form {
-        width: 100%;
-    }
-}
-
 @media screen and (max-width: 1064px) {
     .container {
         width: 90%;
-        height: auto;
     }
-}
-
-.form-header h1::after {
-    content: '';
-    display: block;
-    width: 29rem;
-    height: 0.3rem;
-    background-color: #3CB371;
-    margin: 0 auto;
-    position: absolute;
-    border-radius: 10px;
-}
-
-.input-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem 0;
-}
-
-.input-box {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.1rem;
+    .form {
+        width: 90%; /* Alterado */
+    }
 }
 
 .input-box input {
@@ -117,18 +86,18 @@ body {
     border-radius: 10px;
     box-shadow: 1px 1px 6px #0000001c;
     font-size: 0.8rem;
+    min-width: 200px; /* Adicionado */
 }
 
 .input-box input:hover {
-    background-color: c6c4b9;
+    background-color: #c6c4b9;
 }
 
 .input-box input:focus-visible {
-    outline: 1px solid c6c4b9;
+    outline: 1px solid #c6c4b9;
 }
 
 .input-box label,
-
 .gender-title h6 {
     font-size: 14px;
     font-weight: 700;
@@ -149,7 +118,7 @@ body {
 .term {
     margin-top: 20px;
     font-size: 12px;
-    }
+}
 
 #birthdate {
     width: 55%;
@@ -157,6 +126,7 @@ body {
 
 .login-text {
     margin-right: 12px;
+    padding: 10px; /* Adicionado */
 }
 
 .continue-button {
@@ -187,29 +157,7 @@ body {
     color: #fff;
 }
 
-@media screen and (max-width: 1330px) {
-    .form-image {
-        display: none;
-    }
-    .container {
-        width: 50%;
-    }
-    .form {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 1064px) {
-    .container {
-        width: 90%;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 1330px) {
-    .form-image {
-        display: none;
-    }
+@media screen and (max-width: 800px) {
     .container {
         width: 100%;
     }
@@ -218,10 +166,8 @@ body {
     }
 }
 
-@media screen and (max-width: 1064px) {
-    .container {
-        width: 90%;
-        height: auto;
+@media screen and (max-width: 458px) {
+    .input-box {
+        width: 100%; /* Adicionado */
     }
-
 }
