@@ -126,7 +126,7 @@ body {
 
 .login-text {
     margin-right: 12px;
-    padding: 10px; /* Adicionado */
+    padding: 10px; 
 }
 
 .continue-button {
@@ -170,4 +170,9 @@ body {
     .input-box {
         width: 100%; 
     }
+    .login-text {
+ font-size: 12px; 
+}
+    h1{
+        font-size: 14px;
 }
